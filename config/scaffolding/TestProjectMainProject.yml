@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestProjectMainProject
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: packagesTest1
+  gitServerName: testP1
+  gitUrl: https://github.com/PoojaAnandGit
+  gitUsername: PoojaAnandGit
+  gitBranch: main
