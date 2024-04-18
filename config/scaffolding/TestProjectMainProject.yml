@@ -8,7 +8,19 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: packagesTest1
+  version: "3.0"
   gitServerName: testP1
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testprojectmain.integrations:test123
+  packages:
+  - name: TestProjectMainProject
+    version: "1.0"
+  - name: packagesTest1
+    version: "3.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.850
