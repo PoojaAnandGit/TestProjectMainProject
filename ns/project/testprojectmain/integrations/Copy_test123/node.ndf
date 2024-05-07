@@ -36,8 +36,8 @@
   <value name="stateless">yes</value>
   <value name="caching">yes</value>
   <value name="prefetch">yes</value>
-  <value name="cache_ttl">13</value>
-  <value name="prefetch_level">12</value>
+  <value name="cache_ttl">0</value>
+  <value name="prefetch_level">-1</value>
   <value name="audit_level">off</value>
   <value name="check_internal_acls">no</value>
   <value name="icontext_policy">$null</value>
@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">pooja</value>
-    <value name="createdDate">1713417787560</value>
-    <value name="lastModifiedDate">1713417787560</value>
+    <value name="lastModifiedBy">flowqa</value>
+    <value name="lastModifiedDate">1715060239727</value>
     <value name="displayName">Copy_test123</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -64,12 +63,9 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
