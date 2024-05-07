@@ -23,7 +23,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.850
+    version: 11.0.0.0.865
 - serviceName: project.testprojectmain.integrations:testPackages
   packages:
   - name: TestProjectMainProject
@@ -38,3 +38,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.865
+- serviceName: project.testprojectmain.integrations:Copy_test123
+  packages:
+  - name: TestProjectMainProject
+    version: "1.0"
+  - name: packagesTest1
+    version: "3.0"
