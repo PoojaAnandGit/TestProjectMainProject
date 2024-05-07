@@ -24,3 +24,17 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.850
+- serviceName: project.testprojectmain.integrations:testPackages
+  packages:
+  - name: TestProjectMainProject
+    version: "1.0"
+  - name: packagesTest1
+    version: "3.0"
+- serviceName: Packages:debugLog
+  packages:
+  - name: packagesTest1
+    version: "3.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.865
